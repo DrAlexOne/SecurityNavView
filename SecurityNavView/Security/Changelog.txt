@@ -1,0 +1,2 @@
+05.07.18 - v0.2 - Fixed bugs, remade all scripts, putted more try/catch
+04.07.18 - v0.1 - Imported pages, puted some scripts
