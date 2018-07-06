@@ -204,14 +204,14 @@ namespace Security
                 myBrush.TintColor = Windows.UI.Colors.WhiteSmoke;
                 myBrush.FallbackColor = Windows.UI.Colors.WhiteSmoke;
                 RequestedTheme = ElementTheme.Light;
-                HomeIcon.Foreground = new SolidColorBrush(Colors.Black);
+                //HomeIcon.Foreground = new SolidColorBrush(Colors.Black);
             }
             if (color == "dark")
             {
                 myBrush.TintColor = Color.FromArgb(255, 50, 50, 50);
                 myBrush.FallbackColor = Color.FromArgb(255, 50, 50, 50);
                 RequestedTheme = ElementTheme.Dark;
-                HomeIcon.Foreground = new SolidColorBrush(Colors.White);
+                //HomeIcon.Foreground = new SolidColorBrush(Colors.White);
             }
             else
             {
@@ -219,10 +219,10 @@ namespace Security
                 myBrush.TintColor = Windows.UI.Colors.WhiteSmoke;
                 myBrush.FallbackColor = Windows.UI.Colors.WhiteSmoke;
                 RequestedTheme = ElementTheme.Light;
-                HomeIcon.Foreground = new SolidColorBrush(Colors.Black);
+                //HomeIcon.Foreground = new SolidColorBrush(Colors.Black);
             }
             myBrush.TintOpacity = 0.7;
-            RectangleAcrylic.Fill = myBrush;
+            //RectangleAcrylic.Fill = myBrush;
         }
     }
 }

@@ -141,17 +141,17 @@ namespace Security
                 myBrush.TintColor = Windows.UI.Colors.WhiteSmoke;
                 myBrush.FallbackColor = Windows.UI.Colors.WhiteSmoke;
                 RequestedTheme = ElementTheme.Light;
-                HomeIcon.Foreground = new SolidColorBrush(Colors.Black);
+                //HomeIcon.Foreground = new SolidColorBrush(Colors.Black);
             }
             else
             {
                 myBrush.TintColor = Color.FromArgb(255, 25, 25, 25);
                 myBrush.FallbackColor = Colors.Black;
                 RequestedTheme = ElementTheme.Dark;
-                HomeIcon.Foreground = new SolidColorBrush(Colors.White);
+                //HomeIcon.Foreground = new SolidColorBrush(Colors.White);
             }
             myBrush.TintOpacity = 0.7;
-            RectangleAcrylic.Fill = myBrush;
+            //RectangleAcrylic.Fill = myBrush;
 
 
             if (ShowTitleBar1.IsOn == true)

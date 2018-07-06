@@ -1,0 +1,2 @@
+MainPackage=D:\Alex\Visual\SecurityNavView\Security\bin\x86\Release\Security_0.3.1.0_x86.appx
+SymbolPackage=D:\Alex\Visual\SecurityNavView\Security\AppPackages\Security_0.3.1.0_Test\Security_0.3.1.0_x86.appxsym

@@ -8,19 +8,14 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Grid>
-            <Rectangle x:ConnectionId='6' x:Name="RectangleAcrylic" Height="115" Margin="0,0,0,0" VerticalAlignment="Top">
-                <Rectangle.Fill>
-                    <AcrylicBrush TintOpacity="0.8" BackgroundSource="HostBackdrop" TintColor="WhiteSmoke" FallbackColor="WhiteSmoke"/>
-                </Rectangle.Fill>
-            </Rectangle>
-            <TextBlock HorizontalAlignment="Left" Margin="143,39,0,0" Text="Settings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="28"/>
-            <Button x:ConnectionId='7' HorizontalAlignment="Left" Height="75" Margin="21,21,21,0" VerticalAlignment="Top" Width="75"                Style="{ThemeResource ButtonRevealStyle}" Background="#13000000" Foreground="Black" FocusVisualPrimaryBrush="#1E000000">
-                <FontIcon x:ConnectionId='8' x:Name="HomeIcon" Glyph="&#xE80F;" FontSize="25"/>
-            </Button>
-        </Grid>
-        <StackPanel Margin="15,130,0,0">
+    <StackPanel Margin="0,0,0,0" Padding="10,10,0,0">
+        <StackPanel Orientation="Horizontal">
+            <FontIcon Glyph="&#xE713;" Margin="25,25,0,0" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBlock HorizontalAlignment="Left" Margin="15,16,0,0" Text="Settings" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="28"/>
+
+        </StackPanel>
+
+        <StackPanel Margin="25,25,0,0">
             <TextBlock Text="Show TitleBar" VerticalAlignment="Top"/>
             <ToggleSwitch x:ConnectionId='2' x:Name="ShowTitleBar1" HorizontalAlignment="Left" Width="100" VerticalAlignment="Top"                        Margin="0,5,0,0"/>
 
@@ -35,6 +30,6 @@
 
 
         </StackPanel>
-    </Grid>
+    </StackPanel>
 </Page>
 

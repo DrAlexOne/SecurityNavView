@@ -19,63 +19,63 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>132D0C470416EC9B39D0CF1D35A6673CFB6185B6B17596AABE4332B3C30F46D2</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>8678ce68-040e-459e-9faf-7d40e10cb0cd_1.0.0.0_x64__574mcq5q5mxfj</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>07A104C0D1D1B448BA42FE5FCE1C57510573A3B8B9C74FD5FF24EF4DB8389CEC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8678ce68-040e-459e-9faf-7d40e10cb0cd_0.3.1.0_x64__574mcq5q5mxfj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8678ce68-040e-459e-9faf-7d40e10cb0cd_574mcq5q5mxfj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>8678ce68-040e-459e-9faf-7d40e10cb0cd</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=cooler</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>0.3.1.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-05T06:15:43.861</Modified>
+      <Modified>2018-07-06T08:29:12.553</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-07-05T06:14:26.809</Modified>
+      <Modified>2018-07-06T08:28:24.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-05-28T12:06:10.326</Modified>
+      <Modified>2018-06-28T17:15:31.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-28T12:06:10.326</Modified>
+      <Modified>2018-06-28T17:15:31.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-28T12:06:10.326</Modified>
+      <Modified>2018-06-28T17:15:31.693</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-28T12:06:10.326</Modified>
+      <Modified>2018-06-28T17:15:31.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-28T12:06:10.326</Modified>
+      <Modified>2018-06-28T17:15:31.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-28T12:06:10.326</Modified>
+      <Modified>2018-06-28T17:15:31.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-28T12:06:10.326</Modified>
+      <Modified>2018-06-28T17:15:31.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\BatteryInfo.xbf">
       <PackagePath>BatteryInfo.xbf</PackagePath>
-      <Modified>2018-07-05T06:14:26.812</Modified>
+      <Modified>2018-07-06T08:28:24.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -83,40 +83,40 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Health.xbf">
       <PackagePath>Health.xbf</PackagePath>
-      <Modified>2018-07-05T06:14:26.814</Modified>
+      <Modified>2018-07-06T08:28:24.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Homepage.xbf">
       <PackagePath>Homepage.xbf</PackagePath>
-      <Modified>2018-07-05T06:14:26.816</Modified>
+      <Modified>2018-07-06T08:28:24.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-07-05T06:14:26.818</Modified>
+      <Modified>2018-07-06T08:28:24.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Protect.xbf">
       <PackagePath>Protect.xbf</PackagePath>
-      <Modified>2018-07-05T06:14:26.820</Modified>
+      <Modified>2018-07-06T08:28:24.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-04T18:59:31.193</Modified>
+      <Modified>2018-07-06T08:13:53.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Security.dll">
       <PackagePath>Security.dll</PackagePath>
-      <Modified>2018-07-05T06:15:43.332</Modified>
+      <Modified>2018-07-06T08:29:12.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Security.exe">
       <PackagePath>Security.exe</PackagePath>
-      <Modified>2018-07-05T06:15:43.764</Modified>
+      <Modified>2018-07-06T08:29:12.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Security.pdb">
       <PackagePath>Security.pdb</PackagePath>
-      <Modified>2018-07-05T06:15:43.735</Modified>
+      <Modified>2018-07-06T08:29:12.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Settings.xbf">
       <PackagePath>Settings.xbf</PackagePath>
-      <Modified>2018-07-05T06:14:26.822</Modified>
+      <Modified>2018-07-06T08:28:24.132</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
