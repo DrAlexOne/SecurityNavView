@@ -34546,6 +34546,28 @@ namespace Windows.UI.Xaml.Controls
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
 
+			public static global::Windows.UI.Xaml.Media.Brush get_Foreground(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.Media.Brush __ret = global::__Interop.ForwardComStubs.Stub_3<global::Windows.UI.Xaml.Controls.ITextBlock, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									18
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_Foreground(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Media.Brush value)
+			{
+				global::__Interop.ForwardComStubs.Stub_7<global::Windows.UI.Xaml.Controls.ITextBlock, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									value, 
+									19
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
 			// Signature, Windows.UI.Xaml.Controls.ITextBlock.get_TextWrapping, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000414B4] Windows_UI_Xaml_TextWrapping__Windows_UI_Xaml__TextWrapping, 
 			public static global::Windows.UI.Xaml.TextWrapping get_TextWrapping(global::System.__ComObject __this)
 			{
@@ -34846,6 +34868,68 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
+	// Windows.UI.Xaml.Controls.IToolTipServiceStatics
+	public unsafe static class IToolTipServiceStatics__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IToolTipServiceStatics'
+		public static partial class Stubs
+		{
+			// Signature, Windows.UI.Xaml.Controls.IToolTipServiceStatics.GetToolTip, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x00042014] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+			public static object GetToolTip(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.DependencyObject element)
+			{
+				// Setup
+				void* unsafe_element = default(void*);
+				void* unsafe_value__retval = default(void*);
+				object value__retval = default(object);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_element = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										element, 
+										typeof(global::Windows.UI.Xaml.DependencyObject).TypeHandle
+									);
+					unsafe_value__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.UI.Xaml.Controls.IToolTipServiceStatics).TypeHandle, 
+										13, 
+										unsafe_element, 
+										&(unsafe_value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					value__retval = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_value__retval));
+					// Return
+					return value__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_element)));
+					global::System.GC.KeepAlive(element);
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value__retval)));
+				}
+			}
+
+			public static void SetToolTip(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.DependencyObject element, 
+						object value)
+			{
+				global::__Interop.ForwardComStubs.Stub_32<global::Windows.UI.Xaml.Controls.IToolTipServiceStatics, global::Windows.UI.Xaml.DependencyObject>(
+									__this, 
+									element, 
+									value, 
+									14
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
 	// Windows.UI.Xaml.Controls.IProgressBarFactory
 	public unsafe static class IProgressBarFactory__Impl
 	{
@@ -34893,6 +34977,111 @@ namespace Windows.UI.Xaml.Controls
 									__this, 
 									value, 
 									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IIconElement
+	public unsafe static class IIconElement__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IIconElement'
+		public static partial class Stubs
+		{
+			public static global::Windows.UI.Xaml.Media.Brush get_Foreground(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.Media.Brush __ret = global::__Interop.ForwardComStubs.Stub_3<global::Windows.UI.Xaml.Controls.IIconElement, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_Foreground(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Media.Brush value)
+			{
+				global::__Interop.ForwardComStubs.Stub_7<global::Windows.UI.Xaml.Controls.IIconElement, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									value, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IFontIconFactory
+	public unsafe static class IFontIconFactory__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IFontIconFactory'
+		public static partial class Stubs
+		{
+			public static global::System.IntPtr CreateInstance(
+						global::System.__ComObject __this, 
+						global::System.IntPtr outer, 
+						out global::System.IntPtr inner)
+			{
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_6<global::Windows.UI.Xaml.Controls.IFontIconFactory>(
+									__this, 
+									outer, 
+									out inner, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IFontIcon
+	public unsafe static class IFontIcon__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IFontIcon'
+		public static partial class Stubs
+		{
+			public static string get_Glyph(global::System.__ComObject __this)
+			{
+				string __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.UI.Xaml.Controls.IFontIcon>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_Glyph(
+						global::System.__ComObject __this, 
+						string value)
+			{
+				global::__Interop.ForwardComStubs.Stub_38<global::Windows.UI.Xaml.Controls.IFontIcon>(
+									__this, 
+									value, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			public static double get_FontSize(global::System.__ComObject __this)
+			{
+				double __ret = global::__Interop.ForwardComStubs.Stub_16<global::Windows.UI.Xaml.Controls.IFontIcon>(
+									__this, 
+									8
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_FontSize(
+						global::System.__ComObject __this, 
+						double value)
+			{
+				global::__Interop.ForwardComStubs.Stub_17<global::Windows.UI.Xaml.Controls.IFontIcon>(
+									__this, 
+									value, 
+									9
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
@@ -36209,81 +36398,6 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
-	// Windows.UI.Xaml.Controls.IFontIconFactory
-	public unsafe static class IFontIconFactory__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IFontIconFactory'
-		public static partial class Stubs
-		{
-			public static global::System.IntPtr CreateInstance(
-						global::System.__ComObject __this, 
-						global::System.IntPtr outer, 
-						out global::System.IntPtr inner)
-			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_6<global::Windows.UI.Xaml.Controls.IFontIconFactory>(
-									__this, 
-									outer, 
-									out inner, 
-									6
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IFontIcon
-	public unsafe static class IFontIcon__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IFontIcon'
-		public static partial class Stubs
-		{
-			public static string get_Glyph(global::System.__ComObject __this)
-			{
-				string __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.UI.Xaml.Controls.IFontIcon>(
-									__this, 
-									6
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static void put_Glyph(
-						global::System.__ComObject __this, 
-						string value)
-			{
-				global::__Interop.ForwardComStubs.Stub_38<global::Windows.UI.Xaml.Controls.IFontIcon>(
-									__this, 
-									value, 
-									7
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			}
-
-			public static double get_FontSize(global::System.__ComObject __this)
-			{
-				double __ret = global::__Interop.ForwardComStubs.Stub_16<global::Windows.UI.Xaml.Controls.IFontIcon>(
-									__this, 
-									8
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static void put_FontSize(
-						global::System.__ComObject __this, 
-						double value)
-			{
-				global::__Interop.ForwardComStubs.Stub_17<global::Windows.UI.Xaml.Controls.IFontIcon>(
-									__this, 
-									value, 
-									9
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			}
-		}
-	}
-
 	// Windows.UI.Xaml.Controls.IAppBarButtonFactory
 	public unsafe static class IAppBarButtonFactory__Impl
 	{
@@ -36830,68 +36944,6 @@ namespace Windows.UI.Xaml.Controls
 									__this, 
 									value, 
 									7
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IToolTipServiceStatics
-	public unsafe static class IToolTipServiceStatics__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IToolTipServiceStatics'
-		public static partial class Stubs
-		{
-			// Signature, Windows.UI.Xaml.Controls.IToolTipServiceStatics.GetToolTip, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x00042014] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
-			public static object GetToolTip(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Xaml.DependencyObject element)
-			{
-				// Setup
-				void* unsafe_element = default(void*);
-				void* unsafe_value__retval = default(void*);
-				object value__retval = default(object);
-				int unsafe___hr;
-				try
-				{
-					// Marshalling
-					unsafe_element = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-										element, 
-										typeof(global::Windows.UI.Xaml.DependencyObject).TypeHandle
-									);
-					unsafe_value__retval = null;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(global::Windows.UI.Xaml.Controls.IToolTipServiceStatics).TypeHandle, 
-										13, 
-										unsafe_element, 
-										&(unsafe_value__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					value__retval = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_value__retval));
-					// Return
-					return value__retval;
-				}
-				finally
-				{
-					// Cleanup
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_element)));
-					global::System.GC.KeepAlive(element);
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value__retval)));
-				}
-			}
-
-			public static void SetToolTip(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Xaml.DependencyObject element, 
-						object value)
-			{
-				global::__Interop.ForwardComStubs.Stub_32<global::Windows.UI.Xaml.Controls.IToolTipServiceStatics, global::Windows.UI.Xaml.DependencyObject>(
-									__this, 
-									element, 
-									value, 
-									14
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}

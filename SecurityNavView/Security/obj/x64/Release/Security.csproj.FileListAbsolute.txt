@@ -494,17 +494,3 @@ D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\intermediate\Securit
 D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\intermediate\Security.McgInterop\SafeTypes.g.cs
 D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\intermediate\Security.McgInterop\SharedStubs.g.cs
 D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\intermediate\System.Private.Security.Generated.dll
-D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\App.xbf
-D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\BatteryInfo.xbf
-D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Health.xbf
-D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Homepage.xbf
-D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\MainPage.xbf
-D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Protect.xbf
-D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Settings.xbf
-D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\in\App.xbf
-D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\in\BatteryInfo.xbf
-D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\in\Health.xbf
-D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\in\Homepage.xbf
-D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\in\MainPage.xbf
-D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\in\Protect.xbf
-D:\Alex\Visual\SecurityNavView\Security\obj\x64\Release\ilc\in\Settings.xbf

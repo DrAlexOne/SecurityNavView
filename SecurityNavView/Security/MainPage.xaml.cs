@@ -34,6 +34,8 @@ namespace Security
             Windows.UI.ViewManagement.ApplicationViewTitleBar titleBar = ApplicationView.GetForCurrentView().TitleBar;
             titleBar.ButtonBackgroundColor = Colors.Transparent;
             titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
+
+            ContentFrame.Navigate(typeof(Homepage));
         }
 
         private void NavHome(object sender, TappedRoutedEventArgs e)

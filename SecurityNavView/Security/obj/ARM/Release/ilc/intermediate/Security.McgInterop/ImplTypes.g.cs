@@ -31410,6 +31410,28 @@ namespace Windows.UI.Xaml
 		// StubClass for 'Windows.UI.Xaml.IFrameworkElement4'
 		public static partial class Stubs
 		{
+			public static global::Windows.UI.Xaml.Media.Brush get_FocusVisualSecondaryBrush(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.Media.Brush __ret = global::__Interop.ForwardComStubs.Stub_3<global::Windows.UI.Xaml.IFrameworkElement4, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									14
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_FocusVisualSecondaryBrush(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Media.Brush value)
+			{
+				global::__Interop.ForwardComStubs.Stub_7<global::Windows.UI.Xaml.IFrameworkElement4, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									value, 
+									15
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
 			public static global::Windows.UI.Xaml.Media.Brush get_FocusVisualPrimaryBrush(global::System.__ComObject __this)
 			{
 				global::Windows.UI.Xaml.Media.Brush __ret = global::__Interop.ForwardComStubs.Stub_3<global::Windows.UI.Xaml.IFrameworkElement4, global::Windows.UI.Xaml.Media.Brush>(
@@ -34329,6 +34351,36 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
+	// Windows.UI.Xaml.Controls.IStackPanel2
+	public unsafe static class IStackPanel2__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IStackPanel2'
+		public static partial class Stubs
+		{
+			public static global::Windows.UI.Xaml.Thickness get_Padding(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.Thickness __ret = global::__Interop.ForwardComStubs.Stub_28<global::Windows.UI.Xaml.Controls.IStackPanel2>(
+									__this, 
+									12
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_Padding(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Thickness value)
+			{
+				global::__Interop.ForwardComStubs.Stub_29<global::Windows.UI.Xaml.Controls.IStackPanel2>(
+									__this, 
+									value, 
+									13
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
 	// Windows.UI.Xaml.Controls.IGridFactory
 	public unsafe static class IGridFactory__Impl
 	{
@@ -34464,6 +34516,28 @@ namespace Windows.UI.Xaml.Controls
 									__this, 
 									value, 
 									9
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			public static global::Windows.UI.Xaml.Media.Brush get_Foreground(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.Media.Brush __ret = global::__Interop.ForwardComStubs.Stub_3<global::Windows.UI.Xaml.Controls.ITextBlock, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									18
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_Foreground(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Media.Brush value)
+			{
+				global::__Interop.ForwardComStubs.Stub_7<global::Windows.UI.Xaml.Controls.ITextBlock, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									value, 
+									19
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
@@ -34681,6 +34755,36 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
+	// Windows.UI.Xaml.Controls.ITextBlock2
+	public unsafe static class ITextBlock2__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.ITextBlock2'
+		public static partial class Stubs
+		{
+			public static global::Windows.UI.Xaml.Media.SolidColorBrush get_SelectionHighlightColor(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.Media.SolidColorBrush __ret = global::__Interop.ForwardComStubs.Stub_3<global::Windows.UI.Xaml.Controls.ITextBlock2, global::Windows.UI.Xaml.Media.SolidColorBrush>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_SelectionHighlightColor(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Media.SolidColorBrush value)
+			{
+				global::__Interop.ForwardComStubs.Stub_7<global::Windows.UI.Xaml.Controls.ITextBlock2, global::Windows.UI.Xaml.Media.SolidColorBrush>(
+									__this, 
+									value, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
 	// Windows.UI.Xaml.Controls.ITextBlock6
 	public unsafe static class ITextBlock6__Impl
 	{
@@ -34738,12 +34842,137 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
+	// Windows.UI.Xaml.Controls.IToolTipServiceStatics
+	public unsafe static class IToolTipServiceStatics__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IToolTipServiceStatics'
+		public static partial class Stubs
+		{
+			// Signature, Windows.UI.Xaml.Controls.IToolTipServiceStatics.GetToolTip, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x00042014] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
+			public static object GetToolTip(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.DependencyObject element)
+			{
+				// Setup
+				void* unsafe_element = default(void*);
+				void* unsafe_value__retval = default(void*);
+				object value__retval = default(object);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_element = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										element, 
+										typeof(global::Windows.UI.Xaml.DependencyObject).TypeHandle
+									);
+					unsafe_value__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.UI.Xaml.Controls.IToolTipServiceStatics).TypeHandle, 
+										13, 
+										unsafe_element, 
+										&(unsafe_value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					value__retval = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_value__retval));
+					// Return
+					return value__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_element)));
+					global::System.GC.KeepAlive(element);
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value__retval)));
+				}
+			}
+
+			public static void SetToolTip(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.DependencyObject element, 
+						object value)
+			{
+				global::__Interop.ForwardComStubs.Stub_32<global::Windows.UI.Xaml.Controls.IToolTipServiceStatics, global::Windows.UI.Xaml.DependencyObject>(
+									__this, 
+									element, 
+									value, 
+									14
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IProgressBarFactory
+	public unsafe static class IProgressBarFactory__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IProgressBarFactory'
+		public static partial class Stubs
+		{
+			public static global::System.IntPtr CreateInstance(
+						global::System.__ComObject __this, 
+						global::System.IntPtr outer, 
+						out global::System.IntPtr inner)
+			{
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_6<global::Windows.UI.Xaml.Controls.IProgressBarFactory>(
+									__this, 
+									outer, 
+									out inner, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IProgressBar
+	public unsafe static class IProgressBar__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IProgressBar'
+		public static partial class Stubs
+		{
+			public static bool get_IsIndeterminate(global::System.__ComObject __this)
+			{
+				bool __ret = global::__Interop.ForwardComStubs.Stub_10<global::Windows.UI.Xaml.Controls.IProgressBar>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_IsIndeterminate(
+						global::System.__ComObject __this, 
+						bool value)
+			{
+				global::__Interop.ForwardComStubs.Stub_33<global::Windows.UI.Xaml.Controls.IProgressBar>(
+									__this, 
+									value, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
 	// Windows.UI.Xaml.Controls.IIconElement
 	public unsafe static class IIconElement__Impl
 	{
 		// StubClass for 'Windows.UI.Xaml.Controls.IIconElement'
 		public static partial class Stubs
 		{
+			public static global::Windows.UI.Xaml.Media.Brush get_Foreground(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.Media.Brush __ret = global::__Interop.ForwardComStubs.Stub_3<global::Windows.UI.Xaml.Controls.IIconElement, global::Windows.UI.Xaml.Media.Brush>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
 			public static void put_Foreground(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Media.Brush value)
@@ -34827,59 +35056,6 @@ namespace Windows.UI.Xaml.Controls
 									__this, 
 									value, 
 									9
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IProgressBarFactory
-	public unsafe static class IProgressBarFactory__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IProgressBarFactory'
-		public static partial class Stubs
-		{
-			public static global::System.IntPtr CreateInstance(
-						global::System.__ComObject __this, 
-						global::System.IntPtr outer, 
-						out global::System.IntPtr inner)
-			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_6<global::Windows.UI.Xaml.Controls.IProgressBarFactory>(
-									__this, 
-									outer, 
-									out inner, 
-									6
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IProgressBar
-	public unsafe static class IProgressBar__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IProgressBar'
-		public static partial class Stubs
-		{
-			public static bool get_IsIndeterminate(global::System.__ComObject __this)
-			{
-				bool __ret = global::__Interop.ForwardComStubs.Stub_10<global::Windows.UI.Xaml.Controls.IProgressBar>(
-									__this, 
-									6
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static void put_IsIndeterminate(
-						global::System.__ComObject __this, 
-						bool value)
-			{
-				global::__Interop.ForwardComStubs.Stub_33<global::Windows.UI.Xaml.Controls.IProgressBar>(
-									__this, 
-									value, 
-									7
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
@@ -36742,68 +36918,6 @@ namespace Windows.UI.Xaml.Controls
 									__this, 
 									value, 
 									7
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IToolTipServiceStatics
-	public unsafe static class IToolTipServiceStatics__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IToolTipServiceStatics'
-		public static partial class Stubs
-		{
-			// Signature, Windows.UI.Xaml.Controls.IToolTipServiceStatics.GetToolTip, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x00042014] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0003FBA0] object____mcg_IInspectable, 
-			public static object GetToolTip(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Xaml.DependencyObject element)
-			{
-				// Setup
-				void* unsafe_element = default(void*);
-				void* unsafe_value__retval = default(void*);
-				object value__retval = default(object);
-				int unsafe___hr;
-				try
-				{
-					// Marshalling
-					unsafe_element = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-										element, 
-										typeof(global::Windows.UI.Xaml.DependencyObject).TypeHandle
-									);
-					unsafe_value__retval = null;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(global::Windows.UI.Xaml.Controls.IToolTipServiceStatics).TypeHandle, 
-										13, 
-										unsafe_element, 
-										&(unsafe_value__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					value__retval = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_value__retval));
-					// Return
-					return value__retval;
-				}
-				finally
-				{
-					// Cleanup
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_element)));
-					global::System.GC.KeepAlive(element);
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value__retval)));
-				}
-			}
-
-			public static void SetToolTip(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Xaml.DependencyObject element, 
-						object value)
-			{
-				global::__Interop.ForwardComStubs.Stub_32<global::Windows.UI.Xaml.Controls.IToolTipServiceStatics, global::Windows.UI.Xaml.DependencyObject>(
-									__this, 
-									element, 
-									value, 
-									14
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
@@ -41140,38 +41254,6 @@ namespace Windows.UI.Xaml.Media
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 				return __ret;
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Media.ISolidColorBrushFactory
-	public unsafe static class ISolidColorBrushFactory__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Media.ISolidColorBrushFactory'
-		public static partial class Stubs
-		{
-			// Signature, Windows.UI.Xaml.Media.ISolidColorBrushFactory.CreateInstanceWithColor, [fwd] [return] [EETypeRva:0x000406BC] void__int, [fwd] [in] [EETypeRva:0x0004157C] Windows_UI_Color__Windows_UI__Color, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004157C] System_IntPtr____w64 int, 
-			public static global::System.IntPtr CreateInstanceWithColor(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Color color)
-			{
-				// Setup
-				global::System.IntPtr unsafe_instance__retval;
-				global::System.IntPtr instance__retval;
-				int unsafe___hr;
-				// Marshalling
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(global::Windows.UI.Xaml.Media.ISolidColorBrushFactory).TypeHandle, 
-									6, 
-									color, 
-									&(unsafe_instance__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				instance__retval = unsafe_instance__retval;
-				// Return
-				return instance__retval;
 			}
 		}
 	}

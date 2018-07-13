@@ -493,3 +493,4 @@ D:\Alex\Visual\SecurityNavView\Security\obj\x86\Release\ilc\intermediate\Securit
 D:\Alex\Visual\SecurityNavView\Security\obj\x86\Release\ilc\intermediate\Security.McgInterop\SafeTypes.g.cs
 D:\Alex\Visual\SecurityNavView\Security\obj\x86\Release\ilc\intermediate\Security.McgInterop\SharedStubs.g.cs
 D:\Alex\Visual\SecurityNavView\Security\obj\x86\Release\ilc\intermediate\System.Private.Security.Generated.dll
+D:\Alex\Visual\SecurityNavView\Security\obj\x86\Release\Security.csprojAssemblyReference.cache

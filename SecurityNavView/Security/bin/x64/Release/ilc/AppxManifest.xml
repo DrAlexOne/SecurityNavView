@@ -7,7 +7,7 @@
 
  Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="8678ce68-040e-459e-9faf-7d40e10cb0cd" Publisher="CN=cooler" Version="0.3.1.0" ProcessorArchitecture="x64" />
+  <Identity Name="8678ce68-040e-459e-9faf-7d40e10cb0cd" Publisher="CN=cooler" Version="0.4.2.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="8678ce68-040e-459e-9faf-7d40e10cb0cd" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Security</DisplayName>

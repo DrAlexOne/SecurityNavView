@@ -25,9 +25,6 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\App.xbf">
-      <PackagePath>App.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -55,23 +52,8 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\BatteryInfo.xbf">
-      <PackagePath>BatteryInfo.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Health.xbf">
-      <PackagePath>Health.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Homepage.xbf">
-      <PackagePath>Homepage.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Protect.xbf">
-      <PackagePath>Protect.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
@@ -85,9 +67,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Security.pdb">
       <PackagePath>Security.pdb</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Alex\Visual\SecurityNavView\Security\bin\x64\Release\ilc\Settings.xbf">
-      <PackagePath>Settings.xbf</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
