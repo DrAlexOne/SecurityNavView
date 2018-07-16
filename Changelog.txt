@@ -1,1 +1,2 @@
+16.07.18 - Added Health page
 06.07.18 - Fixed bugs. Redesigned some pages.
